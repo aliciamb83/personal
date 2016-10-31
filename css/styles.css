@@ -1,0 +1,38 @@
+.jumbotron {
+  background-color: #EF1F00;
+  color: white;
+}
+
+.jumbotron a {
+  color: #00B272;
+}
+
+.jumbotron a:hover {
+  color: #00FFA3;
+}
+
+/* The navbar has a bottom border, I want to set it to a shade of red */
+.navbar {
+  background-color: #FF2F00;
+  border-bottom-color: #DF0F00;
+}
+
+/* Use !important to essentially force certain CSS rules to be applied. */
+.navbar a {
+  color: white !important;
+}
+
+.navbar .active a {
+  background-color: #DF0F00 !important;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* You can use "auto" with a CSS margin property to center things */
+.email-form {
+  width: 400px;
+  margin: 0px auto;
+}
